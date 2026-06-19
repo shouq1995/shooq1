@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>طريقة الاستخدام</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Cairo',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+}
+
+.hero{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    opacity:.9;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:32px;
+    color:#222;
+}
+
+.steps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.step{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.step:hover{
+    transform:translateY(-8px);
+}
+
+.step-number{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#4f46e5;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.step h3{
+    margin-bottom:15px;
+}
+
+.step p{
+    line-height:1.8;
+    color:#666;
+}
+
+.info-box{
+    background:white;
+    margin-top:50px;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.info-box h2{
+    margin-bottom:15px;
+}
+
+.info-box p{
+    line-height:2;
+    color:#666;
+}
+
+.footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+}
+</style>
+</head>
+<body>
+
+<!-- العنوان الرئيسي -->
+<section class="hero">
+    <h1>طريقة استخدام النظام</h1>
+    <p>أنتا عجاز؟ تعال معي اختصر عليك الوقت</p>
+</section>
+
+<div class="container">
+
+    <!-- عنوان القسم -->
+    <div class="section-title">
+        <h2>خطوات الاستخدام</h2>
+    </div>
+
+    <!-- الخطوات -->
+    <div class="steps">
+
+        <div class="step">
+            <div class="step-number">1</div>
+            <h3>ضع الدرجات وفق تقسيمة الجامعة</h3>
+            <p>
+                اكتب شرح الخطوة الأولى هنا...
+            </p>
+        </div>
+
+        <div class="step">
+            <div class="step-number">2</div>
+            <h3>ضع الملف في صيغة وورد</h3>
+            <p>
+                اكتب شرح الخطوة الثانية هنا...
+            </p>
+        </div>
+
+        <div class="step">
+            <div class="step-number">3</div>
+            <h3>حمل الملف بالتطبيق</h3>
+            <p>
+                اكتب شرح الخطوة الثالثة هنا...
+            </p>
+        </div>
+
+        <div class="step">
+            <div class="step-number">4</div>
+            <h3>ستظهر لك  النتيجة مع وجود ملاحظات إذا كان هناك خطأ بالحسبة أو بالحروف</h3>
+            <p>
+                اكتب شرح الخطوة الرابعة هنا...
+            </p>
+        </div>
+
+    </div>
+
+    <!— دعواتك يادكتور -->
+    <div class="info-box">
+        <h2>ملاحظات مهمة</h2>
+        <p>
+            يمكنك وضع أي تعليمات أو تنبيهات أو معلومات إضافية هنا.
+        </p>
+    </div>
+
+</div>
+
+<footer class="footer">
+    © 2026 جميع الحقوق محفوظة لشوق الربيعان
+</footer>
+
+</body>
+</html>
